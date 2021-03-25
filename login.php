@@ -11,8 +11,7 @@
   <div class="container">
     <label for="psw"><b>lbPassword</b></label>
     <input type="password" name="psw" required >
+    <button type="submit" name= "btnsubmit">Login</button>   
   </div>
-   <label for="pwd">
-      Password
-    </label>
+   
 </form>
