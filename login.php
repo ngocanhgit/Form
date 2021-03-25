@@ -20,6 +20,7 @@
   if(isset($_POST['btnsubmit'])) {
     if($_POST['uname'] == "admin" && $_POST['psw'] == "admin") {
       echo "Đăng nhập thành công";
+    header("Location: success.php");
     } else {
       echo "Đăng nhập thất bại";
     }
